@@ -1,51 +1,58 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-.container{
-    width: 100vw;
-    min-height: 100vh;
-    background-color: white;
-    padding: 50px;
+header {
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  background-color: #eee;
+  font-family: sans-serif;
 }
-h1{
-    width: 50%;
-    margin: auto;
-    color: black;
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 50px;
 }
-.blogContainer{
-    width: 50%;
-    margin: auto;
-    margin-top: 0px;
-    padding: 10px;
+h1 {
+  width: 50%;
+  margin: auto;
+  color: black;
 }
-.blog{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    height: fit-content;
-    margin-top: 20px;
-    border: 1px solid black;
+.blogContainer {
+  width: 50%;
+  margin: auto;
+  margin-top: 0px;
+  padding: 10px;
 }
-.blogContainer p{
-    color: black;
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
+  border: 1px solid black;
 }
-.img{
-    background-image: url('./hero-image.jpg');
-    width: 100%;
-    height: 200px;
-    background-position: center;
+.blogContainer p {
+  color: black;
 }
-.content{
-    padding: 10px;
+.img {
+  background-image: url("./hero-image.jpg");
+  width: 100%;
+  height: 200px;
+  background-position: center;
 }
-.content h1{
-    margin-bottom: 10px;
+.content {
+  padding: 10px;
 }
-.content p{
-    margin-top: 10px;
-    font-size: 16px;
+.content h1 {
+  margin-bottom: 10px;
+}
+.content p {
+  margin-top: 10px;
+  font-size: 16px;
 }
