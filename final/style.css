@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    overflow-x: hidden;
+    margin: 0;
+}
+.navlink{
+    background: transparent;
+    height: 2vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+    margin: 10px;
+}
+a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    color: deepskyblue;
+}
+a:active{
+    color: grey
+}
+.bimg{
+    height: 790px;
+    width: 100vw;
+    background-color: ivory;
+    background-image: url(infra.jpg);
+}
+
+.fotter{
+    background-color: grey;
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+    color: white;
+}
+.srh{
+    height: 00px;
+    width: 100vw;
+    align-items: center;
+}
+.frm{
+    width: 100vw;
+    height: 200px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+button:hover{
+    color: grey;
+}
+input{
+    font-size: larger;
+    height: 40px;
+    width: 600px;
+    border-radius: 10px;
+    border: 3px solid;
+    
+}
+button{
+    font-size: larger;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid;
+}
+h1{
+    margin-bottom: 0px;
+    font-size: 4em;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
