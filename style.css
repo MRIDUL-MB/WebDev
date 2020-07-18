@@ -44,7 +44,7 @@ a:active{
     height: 790px;
     width: 100vw;
     background-color: ivory;
-    background-image: url(infra.jpg);
+    background-image: url('./assests/infra.jpg');
 }
 
 .fotter{
