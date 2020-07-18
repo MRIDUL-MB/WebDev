@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: deepskyblue;
+    overflow-x: hidden;
+    margin: 0;
+}
+.main{
+    background-color: rgb(240, 239, 239);
+    width: 100vw;
+    height: 1100px;
+}
+h1{
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(216, 8, 8);
+}
+#pl{
+    text-align: center;
+    font-size: larger;
+}
+.frm{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#inp{
+    width: 800px;
+    height: 50px;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.tet{
+    width: 800px;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    height: 150px;
+    border: 1px solid;
+}
+button{
+    padding: 10px;
+    background-color: rgb(216, 8, 8);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: larger;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+h2{
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 2em;  
+}
+.add{
+    width: 100vw;
+    height: 300px;
+}
+.ad{
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left: 300px;
+}
+.addd{
+    
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 300px;
+}
+#pla{
+    text-align: center;
+    font-size: larger;
+}
+.fotter{
+    background-color: rgb(61, 61, 61);
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    color: white;
+}
