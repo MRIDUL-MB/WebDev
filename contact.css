@@ -11,6 +11,9 @@ color: black;
 li a{
     color: black;
 }
+.navbar-brand{
+    color: black;
+}
 footer{
     background-color: rgb(87, 87, 87);
     text-align: center;
