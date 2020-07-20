@@ -32,8 +32,7 @@ li{
     background: transparent!important;
 }
 .abc{
-    position: fixed;
-    margin-top: 30vh;
+    margin-top: 300px;
     text-align: center;
 }
 @media screen and (max-width: 320px){
