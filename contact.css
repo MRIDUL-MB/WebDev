@@ -1,18 +1,8 @@
-
 body{
     background-color: rgb(240, 240, 240);
 }
 .navbar{
     background: transparent!important;
-}
-li{
-color: black;
-}
-li a{
-    color: black;
-}
-.navbar-brand{
-    color: black;
 }
 footer{
     background-color: rgb(87, 87, 87);
