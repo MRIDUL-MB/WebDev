@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+.nav-item{
+    font-weight: bolder;
+}
+h1{
+    color: black;
+}
+p{
+    font-size: large;
+    
+    font-weight: bolder;
+}
+
+.bimg{
+    background-image: url(hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    background: transparent!important;
+}
+.abc{
+    margin-top: 300px;
+    text-align: center;
+}
+@media screen and (max-width: 320px){
+    .abc{
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 360px){
+    .abc{
+        margin-top: 200px;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 375px){
+    .abc{
+        margin-top: 200px;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .abc{
+        margin-top: 200px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .abc{
+        margin-top: 300px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .abc{
+        margin-top: 40ss0px;
+    }
+}
