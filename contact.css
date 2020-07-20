@@ -5,6 +5,12 @@ body{
 .navbar{
     background: transparent!important;
 }
+li{
+color: black;
+}
+li a{
+    color: black;
+}
 footer{
     background-color: rgb(87, 87, 87);
     text-align: center;
