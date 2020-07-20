@@ -16,6 +16,9 @@ p{
 li{
 color: black;
 }
+.navbar-brand{
+    font-weight: bolder;
+}
 li a{
     color: black;
 }
