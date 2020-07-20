@@ -3,7 +3,6 @@ body{
 }
 .nav-item{
     font-weight: bolder;
-    color: black;
 }
 h1{
     color: black;
@@ -14,55 +13,87 @@ p{
     font-weight: bolder;
 }
 li{
-color: black;
+    color: black;
 }
 .navbar-brand{
-    font-weight: bolder;
-    font-size: 28px;
+    color: black;
 }
-li a{
+.nav-link{
     color: black;
 }
 .bimg{
-    background-image: url("hero-image.jpg");
+    background-image: url(hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    color: black;
 }
 .navbar{
     background: transparent!important;
 }
 .abc{
-    margin-top: 300px;
+    position: fixed;
+    margin-top: 30vh;
     text-align: center;
 }
 @media screen and (max-width: 320px){
     .abc{
         margin-top: 100px;
     }
+    h1{
+        font-size: 1em;
+    }
+    p{
+        font-size: 10px;
+    }
 }
 @media screen and (min-width: 321px) and (max-width: 360px){
     .abc{
         margin-top: 200px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 12px;
     }
 }
 @media screen and (min-width: 361px) and (max-width: 375px){
     .abc{
         margin-top: 200px;
     }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 12px;
+    }
 }
+
 @media screen and (min-width: 376px) and (max-width: 425px){
     .abc{
         margin-top: 200px;
     }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 12px;
+    }
 }
+
 @media screen and (min-width: 426px) and (max-width: 768px){
     .abc{
         margin-top: 300px;
     }
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 14px;
+    }
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .abc{
         margin-top: 40ss0px;
