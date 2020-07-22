@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact US</title>
+    <script src="contact.js"></script>
 </head>
 
 <body>
@@ -45,43 +46,45 @@
     </header>
     <div class="container   my-4">
         <h1>Contact Us</h1>
-        <form>
+        <form onsubmit="return fn1();" action="index.html">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name">
+                <input id="nam" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name" required>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Phone</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Mobile No">
+                <input type="text" class="form-control" id="mob" placeholder="Enter Mobile No" required>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
             </div>
 
-            <div class="form-group row">
-                <div class="col-sm-2">Type</div>
-                <div class="col-sm-10">
+            <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Want to:</legend>
+                  <div class="col-sm-10">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                        <label class="form-check-label" for="gridCheck1">
-                            Want to rent a room
-                        </label>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Rent a room" checked>
+                      <label  class="form-check-label" for="gridRadios1">
+                        Rent a room
+                      </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                        <label class="form-check-label" for="gridCheck1">
-                            Want to put room on Lease
-                        </label>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Lend a room">
+                      <label  class="form-check-label" for="gridRadios2">
+                        Lend a room
+                      </label>
                     </div>
+                  </div>
                 </div>
-            </div>
+            </fieldset>
 
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Tell Us about: </label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button class="btn btn-danger">Submit</button>
+            <button onclick="fn1()" class="btn btn-danger" type="submit">Submit</button>
             <div class="card text-center">
                 <div class="card-body">
                     <h2>Better See Us, in Person! </h2>
@@ -134,6 +137,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
